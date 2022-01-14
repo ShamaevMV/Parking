@@ -1,0 +1,11 @@
+<h2>Products</h2>
+<ul class="Products">
+  {{#each products}}
+    <div class = 'product' id="{{this._id}}"
+      <p><img class="someClass" src="{{this.img}}"></p>
+      <p> </p>
+      <p><button type="button" onclick="console_log_by_name(this.name)">{{this.name}}</button></p>
+    </div>
+  {{/each}}
+</ul>
+{{title}}
